@@ -81,7 +81,13 @@ section:last-child {
         <h6>BrewDog now have 9 bars in London, including one in Clerkenwell, just around the corner from the Geovation Hub. Once you’re thirsty from map making, it’s a great place to grab a nice pint!</h6>
     </section>
         
-        <section id='section6'>
+    <section id='section6'>
+        <font color="#01cfff"><h4>6. Bristol</h4></font>
+        <img src="https://www.brewdog.com/images/cms/bars/1449830664ClerkenwellEdits12.jpg" style="width:70%;height:70%;"><br>
+        <h6>BrewDog in Bristol is obviously the best, because it is in Bristol. By the time you read this @ormsbydaniel and @antscott will already be there!</h6>
+    </section>
+        
+    <section id='section7'>
         <img src="http://snodnipper.github.io/os-zoomstack-masterclass/brand/ordnance_survey_white.png" style="width:40%;height:40%;"><br>
          <font size="1">Contains OS data © Crown copyright and database rights 2018</font>
     </section>
@@ -142,6 +148,13 @@ var map = new mapboxgl.Map({
         zoom: 14,
         pitch: 60,
         speed: 0.5
+    },
+    'section6': {
+        bearing: 0,
+        center: [-2.592816, 51.453524],
+        zoom: 14,
+        pitch: 60,
+        speed: 0.8
     },
 };
 // On every scroll event, check which element is on screen
